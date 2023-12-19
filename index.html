@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anuj Portfolio</title>
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+<body>
+    <div class="main bg-black relative text-white xl:!w-[99.99vw] lg:!w-[100vw] overflow-hidden gap-20">
+        <div>
+            <nav class=" flex row text-white font-bold bg-gray-800 h-[100px] items-center mb:justify-between justify-between px-6">
+                <div class="text-base uppercase sm:text-xl md:2xl mb:w-4/6">
+                    Anuj's Portfolio
+                </div>
+                <div class=" sm:flex sm:gap-6 md:gap-10 sm:ml-0  hidden">
+                    <a href="https://www.instagram.com/anuj.s_gautam">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Linkedin</a>
+                    <a href="#">Twitter</a>
+                </div>
+                <div>
+                    <img src="../resources/menu.png" alt="" class="sm:hidden h-[40px] text-white cursor-pointer" >
+                </div>
+                <!-- <div class="flex flex-col gap-8 absolute h-screen bg-black text-white w-20 z-50">
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Linkedin</a>
+                    <a href="#">Twitter</a>
+                </div> -->
+            </nav>
+    
+            <div class=" bg-black flex gap-10 sm:flex-row flex-col">
+                <div  class="flex justify-center my-auto  md:w-[100%] md:max-w-[700px] px-7  py-8 sm:w-[100vw]">
+                    <img style="box-shadow: -4px -3px 30px 9px rgba(126, 105, 105, 0.5);" class=" bg-contain sm:w-[100vw] object-cover rounded-[50%] w-[100%] min-h-[350px] min-w-[350px] h-auto" src="../resources/anuj-removebg-preview.png" alt="">
+                </div>
+                <div class="text-white p-10 my-auto flex flex-col gap-4">
+                    <h3 class="text-white text-xl space-x-3">Hello There, <span class="text-3xl italic">Anuj Gautam</span></h3>
+                    <p class="text-2xl">
+                        <span>Programmer</span>
+                        <span>Coder</span>
+                    </p>
+                    <p class="text-base leading-6">Second-year undergraduate student proficient in C and C++, equipped with a solid foundation in Data Structures and Algorithms (DSA) and adept in competitive programming. Additionally, skilled in front-end development, boasting expertise in HTML, CSS, and JavaScript.</p>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col">
+            <h2 class="text-center text-6xl uppercase font-semibold p-3">Projects</h2>
+            <div class="my-6 flex flex-wrap gap-5 h-full">
+                <div onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0px 10px 20px 2px rgba(60, 59, 59, 0.7)'"
+                onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0px 5px 10px 0px rgba(60, 59, 59, 0.5)'" style="transition: transform 0.3s ease-in-out; box-shadow: 0px 5px 10px 0px rgba(94, 91, 91, 0.5); cursor: pointer; border: 0.5px solid gray; max-height: fit-content; width: 450px; " class=" rounded mx-auto px-10 py-10 flex flex-col gap-4">
+                    <img class="w-[200px] h-[200px] bg-cover mx-auto" src="../resources/searchImage.jpg" alt="">
+                    <p class="text-2xl italic font-semibold">Search Image App</p>
+                    <p class="text-[15px]">Currently in the development phase, working on an image search website intended to utilize the Unsplash API for access to an extensive image library. Employing HTML, CSS, and JavaScript for front-end development, with plans to implement the Unsplash API for fetching and displaying high-quality images. Intending to create a user-friendly interface allowing seamless exploration and discovery of images based on search queries.</p>
+                </div>
+                <div onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0px 10px 20px 2px rgba(60, 59, 59, 0.7)'"
+                onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0px 5px 10px 0px rgba(60, 59, 59, 0.5)'" style="transition: transform 0.3s ease-in-out; box-shadow: 0px 5px 10px 0px rgba(94, 91, 91, 0.5); cursor: pointer; border: 0.5px solid gray; max-height: fit-content; width: 450px; " class=" rounded mx-auto px-10 py-10 flex flex-col gap-4">
+                    <img class="w-[200px] mx-auto" src="../resources/calc.png" alt="">
+                    <p class="text-2xl italic font-semibold">Calculator</p>
+                    <p class="text-[15px]">Developed a fully functional calculator using HTML, CSS, and JavaScript to perform basic arithmetic operations. The application features a user-friendly interface designed with HTML and styled with CSS for a visually appealing experience. JavaScript was utilized to implement the calculator's logic, enabling it to perform addition, subtraction, multiplication, and division accurately. Additionally, incorporated error handling to ensure smooth user interactions and accurate calculations. This project showcases proficiency in front-end development, problem-solving, and creating responsive web applications.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html
